@@ -1,0 +1,31 @@
+{
+  "properties": [
+    {
+      "name": "lettuce.single",
+      "type": "com.lettuce.lettuce.LettuceSingleProperties",
+      "description": "单机配置",
+      "sourceType": "com.lettuce.lettuce.LettuceProperties"
+    },
+    {
+      "name": "lettuce.replica",
+      "type": "com.lettuce.lettuce.LettuceReplicaProperties",
+      "description": "主从配置",
+      "sourceType": "com.lettuce.lettuce.LettuceProperties"
+    },
+    {
+      "name": "lettuce.sentinel",
+      "type": "com.lettuce.lettuce.LettuceSentinelProperties",
+      "description": "哨兵配置",
+      "sourceType": "com.lettuce.lettuce.LettuceProperties"
+    },
+    {
+      "name": "lettuce.cluster",
+      "type": "com.lettuce.lettuce.lettuce.LettuceClusterProperties",
+      "description": "集群配置",
+      "sourceType": "com.lettuce.lettuce.LettuceProperties"
+    }
+  ]
+
+
+
+}

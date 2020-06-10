@@ -1,0 +1,2 @@
+#enableautoconfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lettuce.lettuce.LettuceAutoConfiguration
